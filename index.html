@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LotBDBoss - লগইন</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LotBDBoss</h1>
+            <p>বাংলাদেশের সেরা লটারি প্ল্যাটফর্মে স্বাগতম</p>
+        </header>
+
+        <div id="login-section">
+            <h2>লগইন করুন</h2>
+            <input type="text" id="username" placeholder="ইউজারের নাম">
+            <input type="password" id="password" placeholder="পাসওয়ার্ড">
+            <button onclick="login()">লগইন</button>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 LotBDBoss. সর্বস্বত্ব সংরক্ষিত।</p>
+        </footer>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
